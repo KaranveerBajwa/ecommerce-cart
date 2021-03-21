@@ -1,0 +1,84 @@
+.CartItem-Image
+{
+    width: 180px;
+    height: 180px;
+    object-fit:contain;
+}
+
+.CartItem-Image img
+{
+    object-fit:contain;
+}
+.Cart-Item
+{
+    display:flex;
+    flex-direction: row;
+    padding-top : 12px;
+    padding-bottom:12px;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+
+
+.CartItem-Info
+{
+    flex-grow:2;
+    align-items:flex-start;
+    justify-content:start;
+}
+
+.CartItem-Price
+{
+    font-size: 18px;
+    font-weight:600
+}
+.Info-Title{
+    margin: 0px;
+    font-size: medium; 
+}
+.Info-Title h2{
+    margin:0px;
+    color: #0F1111 !important;
+}
+.Info-Stock{
+    margin: 4px;
+    color: #007600 !important
+}
+.Item-Actions
+{
+    display : flex;
+}
+
+.Items-Quantity
+{
+    border-radius: 7px;
+}
+
+.Item-Delete
+{
+    margin: 4px;
+    color: #007185;
+    cursor: pointer;
+}
+.Item-Delete:hover{
+    text-decoration: underline;
+}
+
+.Item-Quantity select{
+    background-color : #F0F2F2;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px 1px rgba(237,237,237,0.79);
+}
+
+.Item-Quantity select:focus{
+    outline:none
+}
+.Item-Action-Divider
+{
+    color: #DDDDDD;
+    font-style: italics;
+    margin-left: 4px;
+    margin: 4px;
+}
